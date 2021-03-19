@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_home">
+
+<TextView
+    android:id="@+id/welcome_ad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Welcome Admin"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:layout_marginBottom="20dp"
+    ></TextView>
+
+
+
+        <Button
+            android:id="@+id/check_new_pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check / Approved new products"
+            android:textStyle="bold"
+            android:layout_below="@+id/welcome_ad"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="20dp"
+            ></Button>
+
+        <Button
+            android:id="@+id/admin_logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check_new_pro"
+            android:text="Logout"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:backgroundTint="@color/colorPrimary"
+            ></Button>
+
+
+
+</RelativeLayout>

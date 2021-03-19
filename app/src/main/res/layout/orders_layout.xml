@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/shipping_status_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shipped Status"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+   />
+
+    <TextView
+        android:id="@+id/orders_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="5dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/orders_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="5dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/orders_address_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address,City:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="5dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/orders_dateNtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date and Time:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="5dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/orders_total_bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total bill:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="5dp"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/orders_show_product_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Products"
+        android:background="#fff"
+        ></Button>
+
+</LinearLayout>

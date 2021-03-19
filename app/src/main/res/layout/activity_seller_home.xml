@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:id="@+id/seller_all_pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My All Products"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="10dp"
+        ></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/all_pro_lists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller_all_pro"
+        android:layout_above="@+id/nav_view"
+
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+
+</RelativeLayout>
